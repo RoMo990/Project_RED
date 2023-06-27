@@ -1,6 +1,105 @@
+/* GENERAL SETTINGS */
+
 *{
 
-    font-family: 'Nova Square', cursive;
     font-family: 'Rajdhani', sans-serif;
 
 }
+
+h1, h2, h3, h4, h5, h6{
+
+    font-family: 'Nova Square', cursive;
+
+}
+
+/* COLOUR SET */
+
+:root{
+
+    --primary:(darkred);
+    --secondary:(#C67F7F);
+    --accent:(#6c757e);
+    --whiteCustom:(#ededed);
+    --blackCustom:(#212529);
+
+}
+
+/* COLOUR CLASS */
+
+.text-primaryC{
+
+    color: var(--primary);
+
+}
+
+.text-secondaryC{
+
+    color: var(--secondary);
+
+}
+
+.text-accentC{
+
+    color: var(--accent);
+
+}
+
+.text-whiteC{
+
+    color: var(--whiteCustom);
+
+}
+
+.text-blackC{
+
+    color: var(--blackCustom);
+
+}
+
+.bg-primaryC{
+
+    background-color: var(--primary);
+
+}
+
+.bg-secondaryC{
+
+    background-color: var(--secondary);
+
+}
+
+.bg-accentC{
+
+    background-color: var(--accent);
+
+}
+
+.bg-whiteC{
+
+    background-color: var(--whiteCustom);
+
+}
+
+.bg-blackC{
+
+    background-color: var(--blackCustom);
+
+}
+
+/* HEADER */
+
+.logoCustom{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-bg{
+
+    background-image:linear-gradient(0deg, rgba(166,166,166,0) 0%, rgba(237, 237, 237,1) 100%), url(/media/header_bg.jpg);
+    background-position: center;
+    position: center;
+
+}
+
